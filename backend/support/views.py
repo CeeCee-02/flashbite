@@ -1,0 +1,2 @@
+# support views — scaffold only
+

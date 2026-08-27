@@ -1,0 +1,2 @@
+# notifications views — scaffold only
+

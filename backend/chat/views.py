@@ -1,0 +1,2 @@
+# chat views — scaffold only
+

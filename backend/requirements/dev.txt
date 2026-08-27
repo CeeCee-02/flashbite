@@ -1,0 +1,14 @@
+-r base.txt
+
+# ── Testing ────────────────────────────────────────────────────────────────────
+pytest==8.3.*
+pytest-django==4.9.*
+pytest-asyncio==0.24.*
+factory-boy==3.3.*
+Faker==30.*
+coverage==7.6.*
+pytest-cov==5.0.*
+
+# ── Dev Utilities ──────────────────────────────────────────────────────────────
+django-extensions==3.2.*
+ipython==8.*

@@ -1,0 +1,6 @@
+-r base.txt
+
+# Celery Beat — database-backed scheduler (Linux only; python-crontab has no Windows wheel)
+# Not needed for local dev — only active on Render from Milestone 7 onward.
+django-celery-beat==2.7.*
+
