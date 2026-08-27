@@ -20,7 +20,7 @@ env = environ.Env(
 )
 environ.Env.read_env(BASE_DIR / ".env")
 
-SECRET_KEY = env("DJANGO_SECRET_KEY")
+SECRET_KEY = env("DJANGO_SECRET_KEY", default="django-insecure-flashbite-bootstrap-build-secret-key-change-in-prod")
 DEBUG = env("DJANGO_DEBUG")
 ALLOWED_HOSTS = env("ALLOWED_HOSTS")
 
@@ -100,7 +100,7 @@ TEMPLATES = [
 
 DATABASES = {
     "default": dj_database_url.config(
-        default=env("DATABASE_URL"),
+        default=env("DATABASE_URL", default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}"),
         conn_max_age=600,
         conn_health_checks=True,
     )

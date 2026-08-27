@@ -7,9 +7,13 @@ from .base import *  # noqa: F401, F403
 
 DEBUG = False
 
-# Celery Beat — only installed in prod (django-celery-beat has no Windows wheel)
-INSTALLED_APPS = INSTALLED_APPS + ["django_celery_beat"]  # noqa: F405
-CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"
+# Celery Beat — installed in prod environment
+try:
+    import django_celery_beat  # noqa: F401
+    INSTALLED_APPS = INSTALLED_APPS + ["django_celery_beat"]  # noqa: F405
+    CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"
+except ImportError:
+    pass
 
 # Security hardening
 SECURE_SSL_REDIRECT = True
