@@ -1,2 +1,2 @@
-# reviews views — scaffold only
+# reviews views  -  scaffold only
 

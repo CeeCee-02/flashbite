@@ -1,2 +1,2 @@
-# wallets models — scaffold only (logic added in later milestones)
+# wallets models  -  scaffold only (logic added in later milestones)
 

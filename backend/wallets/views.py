@@ -1,2 +1,2 @@
-# wallets views — scaffold only
+# wallets views  -  scaffold only
 

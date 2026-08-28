@@ -1,2 +1,2 @@
-# chat models — scaffold only (logic added in later milestones)
+# chat models  -  scaffold only (logic added in later milestones)
 

@@ -1,2 +1,2 @@
-# analytics views — scaffold only
+# analytics views  -  scaffold only
 

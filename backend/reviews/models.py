@@ -1,2 +1,2 @@
-# reviews models — scaffold only (logic added in later milestones)
+# reviews models  -  scaffold only (logic added in later milestones)
 

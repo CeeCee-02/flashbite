@@ -1,2 +1,2 @@
-# support views — scaffold only
+# support views  -  scaffold only
 
